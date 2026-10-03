@@ -1,0 +1,15 @@
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "hello"
+path = "src/main.rs"
+
+[[bin]]
+name = "animate"
+path = "src/animate.rs"
+
+[dependencies]
+ctrlc = "3"

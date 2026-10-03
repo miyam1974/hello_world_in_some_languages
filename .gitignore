@@ -1,0 +1,14 @@
+# Build output directories (keep folder via .gitkeep)
+/*/out/*
+!/*/out/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
